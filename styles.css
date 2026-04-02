@@ -25,3 +25,14 @@ color: white;
 border: none;
 cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+.contact {
+padding: 10px;
+}
+
+.contact input,
+.contact textarea {
+font-size: 14px;
+}
+}

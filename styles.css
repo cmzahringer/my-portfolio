@@ -99,6 +99,9 @@ footer {
   max-width: 600px;
   margin: 40px auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .intro p {
@@ -106,11 +109,11 @@ footer {
 }
 
 .intro img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  display: block;
-  margin: 20px auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {

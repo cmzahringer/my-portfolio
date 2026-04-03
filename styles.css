@@ -7,15 +7,11 @@ body {
   min-height: 100vh;
 }
 
-nav {
-  background-color: #333;
-}
-
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding: 10px 0;
   margin: 0;
 }
 

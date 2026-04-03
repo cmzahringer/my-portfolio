@@ -52,11 +52,14 @@ footer {
 
 .btn {
   display: inline-block;
-  margin-top: 20px;
+  align-self: center;
+  margin-top: 0;
   padding: 10px 15px;
   background-color: #333;
   color: white;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {

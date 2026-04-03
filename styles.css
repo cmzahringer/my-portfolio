@@ -72,3 +72,34 @@ nav ul li a:hover {
     margin: 20px;
   }
 }
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.intro img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #555;
+}

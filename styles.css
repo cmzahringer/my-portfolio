@@ -107,6 +107,15 @@ footer {
   background-color: #555;
 }
 
+.iframe-demo {
+  text-align: center;
+}
+
+.iframe-demo a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
 .intro {
   max-width: 600px;
   margin: 40px auto;

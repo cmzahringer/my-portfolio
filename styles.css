@@ -82,6 +82,10 @@ footer {
   background-color: white;
 }
 
+.contact h1 {
+  text-align: center;
+}
+
 .contact label {
   display: block;
   margin-top: 10px;

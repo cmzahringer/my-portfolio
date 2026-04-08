@@ -13,6 +13,13 @@ a {
 
 main {
   flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+main a {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 header {
@@ -44,6 +51,11 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
 }
 
 footer {

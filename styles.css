@@ -59,6 +59,11 @@ footer {
   color: white;
 }
 
+.about {
+padding: 20px;
+text-align: center;
+}
+
 .btn {
   display: inline-block;
   align-self: center;

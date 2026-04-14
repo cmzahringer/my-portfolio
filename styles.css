@@ -165,8 +165,16 @@ border-radius: 10px;
     flex-direction: column;
   }
 
+  .about {
+  padding: 10px;
+  }
+
   .contact {
     padding: 10px;
     margin: 20px;
+  }
+
+  .profile-img {
+  width: 80%;
   }
 }

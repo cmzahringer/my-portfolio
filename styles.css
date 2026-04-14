@@ -146,6 +146,12 @@ text-align: center;
   margin: 0 auto;
 }
 
+.profile-img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
 .video-player {
   max-width: 800px;
   margin: 40px auto;

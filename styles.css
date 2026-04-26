@@ -152,6 +152,34 @@ height: auto;
 border-radius: 10px;
 }
 
+.research-table {
+  max-width: 1000px;
+  margin: 40px auto;
+  overflow-x: auto; /* helps on mobile */
+}
+
+.research-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.research-table th,
+.research-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.research-table th {
+  background-color: #333;
+  color: white;
+}
+
+.research-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
 .video-player {
   max-width: 800px;
   margin: 40px auto;

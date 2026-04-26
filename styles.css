@@ -155,7 +155,7 @@ border-radius: 10px;
 .research-table {
   max-width: 1000px;
   margin: 40px auto;
-  overflow-x: auto; /* helps on mobile */
+  overflow-x: auto;
 }
 
 .research-table table {
@@ -168,10 +168,14 @@ border-radius: 10px;
 .research-table td {
   border: 1px solid #ccc;
   padding: 10px;
+}
+
+.research-table td {
   text-align: left;
 }
 
 .research-table th {
+  text-align: center;
   background-color: #333;
   color: white;
 }

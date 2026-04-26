@@ -193,6 +193,22 @@ border-radius: 10px;
   background-color: #f9f9f9;
 }
 
+.resume-table {
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse;
+}
+
+.resume-table th, .resume-table td {
+border: 1px solid #333;
+padding: 10px;
+text-align: center;
+}
+
+.resume-table th {
+background-color: #f4f4f4;
+}
+
 .video-player {
   max-width: 800px;
   margin: 40px auto;
@@ -218,4 +234,15 @@ border-radius: 10px;
   .profile-img {
   width: 80%;
   }
+}
+
+@media screen and (max-width: 768px) {
+.resume-table {
+width: 100%;
+font-size: 14px;
+}
+
+.resume-table th, .resume-table td {
+padding: 8px;
+}
 }
